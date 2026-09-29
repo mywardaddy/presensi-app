@@ -1,0 +1,66 @@
+# ==========================================
+#  Environment & secrets
+# ==========================================
+.env
+.env.backup
+.env.production
+.env.staging
+.phpunit.result.cache
+auth.json
+Homestead.json
+Homestead.yaml
+
+# ==========================================
+#  PHP / Laravel
+# ==========================================
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# ==========================================
+#  Python (backend-ai)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frame debug yang ditulis otomatis oleh backend-ai/api.py
+backend-ai/debug_frame.jpg
+
+# ==========================================
+#  Database dump lokal
+# ==========================================
+database/database.sqlite
+
+# ==========================================
+#  Editor / OS
+# ==========================================
+.idea/
+.vscode/
+.zed/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
